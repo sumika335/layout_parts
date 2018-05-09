@@ -1,5 +1,85 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.content {
+  width: 500px;
+  height: 500px;
+  background-color: #ecf1f2;
+  margin: 0 auto;
+  position: relative;
+}
+.contents_box {
+  position: absolute;
+  width: 100px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 100px;
+  text-align: center;
+}
+.contents_box.is-1 {
+  background-color: #ffefd3;
+  z-index: 1;
+  top: 40px;
+  left: 200px;
+}
+.contents_box.is-2 {
+  background-color: #7084de;
+  z-index: 2;
+  top: 120px;
+  right: 120px;
+}
+.contents_box.is-3 {
+  background-color: #d0ecea;
+  z-index: 3;
+  top: 200px;
+  right: 40px;
+}
+.contents_box.is-4 {
+  background-color: #8b7a5e;
+  z-index: 4;
+  top: 280px;
+  right: 120px;
+}
+.contents_box.is-5 {
+  background-color: #9fd6d2;
+  z-index: 5;
+  top: 360px;
+  left: 200px;
+}
+.contents_box.is-6 {
+  background-color: #fffee4;
+  z-index: 6;
+  top: 280px;
+  left: 120px;
+}
+.contents_box.is-7 {
+  background-color: #deae70;
+  z-index: 7;
+  top: 200px;
+  left: 40px;
+}
+.contents_box.is-8 {
+  background-color: #de70cf;
+  z-index: 8;
+  top: 120px;
+  left: 120px;
+}
+.contents_box.is-8::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 9;
+  width: 20px;
+  height: 20px;
+  background-color:  #ffefd3;
+  content: "";
+}
+.contents_box.is-9 {
+  background-color: #2b69a3;
+  position: fixed;
+  z-index: 10;
+  top: 10px;
+  left: 10px;
+}
 
 /* 回答はここに書いてね */
