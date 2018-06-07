@@ -14,7 +14,6 @@ th {
   padding: 10px;
   border: solid #dedede 1px;
   text-align: center;
-  border-collapse: collapse;
 }
 td {
   color: #000;
@@ -23,7 +22,6 @@ td {
   padding: 10px;
   border: solid #dedede 1px;
   text-align: center;
-  border-collapse: collapse;
 }
 tr:nth-child(2n+3) {
   background-color: #ecf1f2;
