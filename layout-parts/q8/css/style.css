@@ -18,7 +18,6 @@
   background-color: #fdc8b8;
 }
 .q8__cell.is-2 {
-  width: 500px;
   background-color: #e0abd9;
 }
 .q8__cell.is-3 {
@@ -26,11 +25,9 @@
   background-color: #b6d8ed;
 }
 .q8__cell.is-4 {
-  width: 100px;
   background-color: #e5d32e;
 }
 .q8__cell.is-5 {
-  width: 100px;
   background-color: #e4e67c;
 }
 .q8__cell.is-6 {

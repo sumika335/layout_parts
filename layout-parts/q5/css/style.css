@@ -1,85 +1,90 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-q5__horizontal__box {
+.q5__horizontal__box {
   width: 300px;
   display: inline-block;
-  margin: 0 10px;
-  padding: 10px 0;
   font-size: 16px;
   text-align: left;
   background-color: #fff;
 }
-.content.text-align {
-  text-align: center;
+.content {
   width: 90px;
   padding: 10px 0;
   background-color: #e6f2ff;
   margin: 0 auto;
 }
-.content.margin {
+.textalign {
+  display: block;
   text-align: center;
-  width: 90px;
-  padding: 10px 0;
-  background-color: #e6f2ff;
-  margin: 0 auto;
 }
-.q5__box {
+.margin {
+  margin: 0 auto;
+  text-align: center;
+}
+.contents__vertical__table {
   display: table;
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+}
+.mb20 {
+  margin-bottom: 20px !important;
 }
 .q5__vertical__table__inner {
   display: table-cell;
-  vertical-align: middle;
+  background-color: #ecf1f2;
   text-align: center;
+  vertical-align: middle;
 }
 .q5__vertical__table__txt {
   display: inline-block;
   padding: 10px;
   background-color: #fff;
 }
-.q5__vertical_flex__inner {
+.contents__vertical__flex {
   display: flex;
   width: 300px;
   height: 200px;
+  margin: 0 auto;
+  background-color: #ecf1f2;
   align-items: center;
   justify-content: center;
 }
-.q5__vertical_flex__txt {
+.q5__vertical__flex__txt {
   display: inline-block;
   padding: 10px;
   background-color: #fff;
 }
 .q5__box__inner {
-  width: 300px;
-  display: inline-block;
-  margin: 0 10px;
-  padding: 10px 0;
-  font-size: 16px;
-  text-align: left;
-  background-color: #fff;
   position: relative;
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  margin: 0 10px;
+  background-color: #fff;
+  font-size: 16px;
+  vertical-align: top;
 }
 .q5__box__inner--stable {
-  text-align: center;
+  position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   width: 110px;
   height: 30px;
-  line-height: 30px;
-  background-color: #e6f2ff;
   margin: auto;
-  position: absolute;
+  line-height: 30px;
+  text-align: center;
 }
 .q5__box__inner--flexible {
-  display: inline-block;
-  text-align: center;
-  padding: 10px;
+  position: absolute;
   top: 50%;
   left: 50%;
-  background-color: #e6f2ff;
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
   transform: translate(-50%,-50%);
-  position: absolute;
 }
 /* 回答はここに書いてね */

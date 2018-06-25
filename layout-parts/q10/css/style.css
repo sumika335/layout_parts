@@ -29,8 +29,15 @@
   font-weight: bold;
 }
 .clearfix::before {
-  content: "";
   display: table;
+  clear: both;
+  visibility: hidden;
+  content: "";
+}
+.clearfix::after {
+  display: table !important;
+  clear: both;
+  content: "";
 }
 .q10__main {
   float: left;
@@ -68,11 +75,6 @@ ul {
   border: none;
   outline: none;
   -webkit-appearancre: none;
-}
-.clearfix::after {
-  clear: both;
-  content: "";
-  display: table !important;
 }
 .q10__radio {
   cursor: pointer;
@@ -136,5 +138,6 @@ ul {
   font-size: 12px;
   box-sizing: border-box;
   resize: none;
-}
+
+
 /* 回答はここに書いてね */

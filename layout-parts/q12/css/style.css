@@ -9,7 +9,7 @@
   margin: 0 auto;
   border-radius: 30px;
 }
-.contents::before{
+.contents::before {
   content: '';
   position: absolute;
   display: block;
@@ -21,7 +21,7 @@
   border-right: 20px solid transparent;
   border-left: 20px solid transparent;
 }
-.contents::after{
+.contents::after {
   content: '';
   position: absolute;
   display: block;
@@ -33,7 +33,7 @@
   border-right: 20px solid transparent;
   border-left: 20px solid transparent;
 }
-.p {
+.word {
   word-wrap: normal;
 }
 /* 回答はここに書いてね */

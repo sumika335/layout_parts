@@ -1,28 +1,28 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.sub_wrapper{
+.sub_wrapper {
   width: 900px;
   background-color: #eff3f4;
   padding: 20px;
   margin: 0 auto;
 }
-.balloon_picture{
+.left_picture {
   float: left;
   margin: 0 20px 10px 0;
   box-sizing: border-box;
 }
-.light_picture{
+.right_picture {
   float: right;
   margin: 0 0 10px 20px;
   box-sizing: border-box;
 }
-p{
+content {
   font-size: 18px;
   line-height: 22px;
   word-break: break-all;
 }
-.clearfix:after{
+.clearfix:after {
   display: block;
   clear: both;
   content: "";
