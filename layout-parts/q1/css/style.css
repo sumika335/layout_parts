@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.subwrapper {
+.contentbox {
   width: 900px;
   position: relative;
   background-color: #eff3f4;
@@ -9,31 +9,28 @@
   box-sizing: border-box;
   padding: 20px;
 }
-.square {
+.content__inner {
   width: 230px;
+  float: left;
   background-color: #3274ae;
+  padding: 20px;
+}
+.content__inner:not(:first-child) {
   margin-left: 20px;
-  padding: 20px;
-  float:left;
-}
-.square:first-child {
-  margin: 0;
-}
-.contentbox {
-  width: 230px;
-  border: solid 10px #022336;
-  background-color: #eaf4ff;
-  padding: 20px;
-  box-sizing: border-box;
-  margin: 0 auto;
 }
 .content {
+  background-color: #eaf4ff;
+  border: 10px solid #022336;
   font-size: 16px;
   line-height: 16px;
+  padding: 20px;
+  margin: 0 auto;
 }
-.clearfix:after {
-  display: block;
+.clearfix::before {
+  content: "";
+  display: table !important;
+}
+.clearfix::after {
   clear: both;
-  content:"";
 }
 /* 回答はここに書いてね */
